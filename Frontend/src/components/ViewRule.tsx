@@ -69,6 +69,9 @@ const ViewRule: React.FC = () => {
                 <div className="mt-10">
                     <h3 className="text-2xl font-semibold text-gray-100 mb-4">{rule.ruleName}</h3>
                     <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                        <p className="text-gray-300 mb-4 italic">
+                            Tip: You can drag to move around the tree and scroll to zoom in/out.
+                        </p>
                         <ASTTreeVisualizer data={rule.ast} />
                     </div>
                 </div>
