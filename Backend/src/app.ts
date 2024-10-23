@@ -9,7 +9,7 @@ app.use(express.json());
 app.use("/api/v1/rules", ruleRouter);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World");
+  res.send("Server is Running");
 });
 
 export default app;
