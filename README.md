@@ -5,21 +5,21 @@ Rule Engine is a web application that allows users to create, combine, and evalu
 ## Hosted Links
 
 - [Frontend](https://rule-engine.harshit-joshi.tech/)
-- Backend :
+- Backend: [Link to Backend] (Add the actual link here)
 
 ## Features
 
-- Create rules with a custom syntax
-- Combine existing rules using AND/OR operators
-- Evaluate data against rules to check eligibility
-- Visualize rule structure using an Abstract Syntax Tree (AST)
-- View and manage existing rules
+- **Create Rules:** Define new rules using a custom syntax that allows for flexibility and precision.
+- **Combine Rules:** Merge existing rules using logical operators (AND/OR) to form complex conditions.
+- **Evaluate Data:** Check data against defined rules to determine eligibility or compliance.
+- **Visualize Rules:** Use an Abstract Syntax Tree (AST) to visualize and understand the structure of rules.
+- **Manage Rules:** View, edit, and delete existing rules to keep your rule set up-to-date.
 
 ## Tech Stack
 
-- Frontend: React, TypeScript, Tailwind CSS
-- Backend: Node.js, Express, TypeScript
-- Database: MongoDB
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** Node.js, Express, TypeScript
+- **Database:** MongoDB
 
 ## Running the Application
 
@@ -31,10 +31,10 @@ Rule Engine is a web application that allows users to create, combine, and evalu
 
 2. **Run Docker Compose:**
 
-   - Execute the following command to start the application using Docker Compose:
+   - Simply execute the following command to start the application:
 
      ```sh
-     docker-compose up
+     docker compose up
      ```
 
 3. **Access the Application:**
@@ -42,7 +42,7 @@ Rule Engine is a web application that allows users to create, combine, and evalu
 
 ## Usage
 
-1. Create a Rule: Use the "Create Rule" page to define new rules using the custom syntax.
-2. Combine Rules: Navigate to the "Combine Rules" page to merge existing rules with AND/OR operators.
-3. Check Eligibility: Use the "Check Eligibility" page to evaluate data against a selected rule.
-4. View Rules: The "View Rule" page allows you to visualize the structure of existing rules.
+1. **Create a Rule:** Use the "Create Rule" page to define new rules using the custom syntax.
+2. **Combine Rules:** Navigate to the "Combine Rules" page to merge existing rules with AND/OR operators.
+3. **Check Eligibility:** Use the "Check Eligibility" page to evaluate data against a selected rule.
+4. **View Rules:** The "View Rule" page allows you to visualize the structure of existing rules.
