@@ -5,7 +5,7 @@ Rule Engine is a web application that allows users to create, combine, and evalu
 ## Hosted Links
 
 - [Frontend](https://rule-engine.harshit-joshi.tech/)
-- Backend: [Link to Backend] (Add the actual link here)
+- [Backend](https://rule-engine-pmwb.onrender.com/)
 
 ## Features
 

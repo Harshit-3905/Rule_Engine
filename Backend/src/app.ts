@@ -9,7 +9,12 @@ app.use(express.json());
 app.use("/api/v1/rules", ruleRouter);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Server is Running");
+  res.json({ message: "Server is Running" });
 });
+
+setInterval(async () => {
+  const res: any = await fetch("https://rule-engine-pmwb.onrender.com/");
+  console.log(res.message);
+}, 14 * 60 * 1000);
 
 export default app;
