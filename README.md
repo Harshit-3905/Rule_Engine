@@ -25,20 +25,13 @@ Rule Engine is a web application that allows users to create, combine, and evalu
 
 ### Steps to Run the Application
 
-1. **Open the Project Folder in Terminal:**
-
-   - Navigate to the project directory where the `docker-compose.yml` file is located.
-
-2. **Run Docker Compose:**
-
-   - Simply execute the following command to start the application:
-
-     ```sh
-     docker compose up
-     ```
-
-3. **Access the Application:**
-   Once the containers are up and running, you can access the frontend at [http://localhost:3000](http://localhost:3000) and the backend at [http://localhost:5000](http://localhost:5000).
+1. Clone the repository
+2. Run the application using Docker Compose:
+   - Ensure Docker and Docker Compose are installed on your machine
+   - In the root directory of the project, run: `docker-compose up`
+   - This will build and start both the frontend and backend services along with the MongoDB database
+   - The frontend will be accessible at `http://localhost:3000`
+   - The backend will be running at `http://localhost:5000`
 
 ## Usage
 
